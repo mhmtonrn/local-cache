@@ -23,11 +23,11 @@
         </dependency>
     </dependencies>
          
-    <distributionManagement>
+     <distributionManagement>
         <repository>
             <id>github</id>
             <name>GitHub OWNER Apache Maven Packages</name>
-            <url>http://repo.maven.apache.org/maven2</url>
+            <url>https://maven.pkg.github.com/mhmtonrn/local-cache</url>
         </repository>
     </distributionManagement>
 
