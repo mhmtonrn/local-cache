@@ -16,11 +16,6 @@ jobs:
       packages: write
 
     steps:
-    - name: Fortify ScanCentral Scan
-      # You may pin to the exact commit or the version.
-      # uses: fortify/gha-setup-scancentral-client@906d5cb5d8765c2e86e1ae7d32cd7b4bf45103f2
-      uses: fortify/gha-setup-scancentral-client@v1.2.0
-      
     - uses: actions/checkout@v3
     - name: Set up JDK 17
       uses: actions/setup-java@v3
